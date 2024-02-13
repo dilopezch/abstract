@@ -1,0 +1,194 @@
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    } 
+
+    body {
+        font-family: 'GT America Standard', sans-serif;
+    }
+
+    header {
+        width: 100%;
+        height: 80px;
+        background-color:#000000 ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 50px;
+    }
+
+    .header-logo {
+        margin: 10px;
+    }
+
+    .header-help-center {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-site-name-abstract {
+        color: #fff;
+        text-decoration: None;
+        font-weight: bold;
+        vertical-align: middle;
+    }
+
+    .header-help-link {
+        color: #fff;
+        text-decoration: None;
+    }
+
+    .header-submit-button {
+        background: #191a1b;
+        color: #fff;
+        border-color: #fff;
+        border-width: 1px ;
+        border-radius: 8px;
+        padding: 10px 22px;
+        font-size: 24px;
+    }
+
+    .header-signin-button {
+        background: #4C5FD5;
+        color: #fff;
+        border-color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 10px 22px;
+        font-size: 24px
+    }
+    
+    .search-section {
+        width: 100%;
+        height: 250px;
+        background-color:#dadbf1;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .search-label {
+        font-size: 55px;
+    }
+
+    .search-bar {
+        width: 500px;
+        height: 40px;
+        border-radius: 4px;
+        border-style: solid;
+        border-width: 1px;
+        padding-left: 10px;
+    }
+
+    .help-section {
+        width: 100%;
+        background-color: #fff;
+        padding: 50px;
+    }
+
+    .help-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .help-list-info {
+        display: flex;
+    }
+
+    .icon-help-list-info{
+        margin: 20px;
+    }
+
+    .info-list {
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    .info-list a{
+        color: #4C5FD5;
+        text-decoration: none;
+    }
+
+    .help-info-p {
+        padding: 15px 0;
+    }
+
+    footer {
+        width: 100%;
+        background-color:#000000;
+        color: #fff;
+    }
+
+    .footer-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 30px 100px;
+    }
+
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 20%;
+    }
+
+    @media screen and (max-width: 576px){
+        .footer-info {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 33%;
+        } 
+    }
+    
+    @media screen and (max-width: 520px){
+        .footer-info {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 50%;
+        }
+    }
+
+    @media screen and (max-width: 430px){
+        .footer-info {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+    }
+
+    .footer-section a {
+        color: #fff;
+        text-decoration: none;
+        margin: 3px 0;
+    }
+
+    .footer-section h3 {
+        padding-bottom: 20px;
+    }
+
+    .footer-section strong {
+        margin-top: 25px;
+    }
+
+    .footer-info-copyright {
+        font-size: 18px;
+        width: 20%;
+    }
+
+    .footer-info-copyright img {
+        margin: 10px 0;
+    }
+
+    .footer-info-copyright p {
+        margin: 5px 0;
+    }
+
+
+
